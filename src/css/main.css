@@ -1,0 +1,53 @@
+
+
+.container{
+    margin: 0;
+}
+
+.primary__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #f2c98b;
+    padding: 105px 0 0 0;
+}
+
+.about__logo {
+    /* margin: 0 160px ; */
+    align-self: center;
+    padding-bottom: 45px;
+    max-width: 85px;
+}
+
+.about__title {
+    align-self: center;
+    padding-bottom: 30px;
+    font-size: 34px;
+    color: #966a2d;
+}
+
+.about__slogan {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 85px;
+    font-size: 24px;
+    color: #966a2d;
+}
+
+.about__image {
+    max-width: 380px;
+}
+
+.primary__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 105px;
+
+}
+
+.sign-in__btn-submit {
+    background-color: #009ef7;
+    border: 0;
+    border-radius: 5px;
+}
