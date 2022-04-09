@@ -13,47 +13,47 @@
     <title>Website</title>
 </head>
 <body>
-    <section class="primary container">
+    <section class="primary container-fluid">
         <div class="primaty__wrap row">
 
-            <div class="primary__left col about">
+            <div class="primary__left col-6 about">
                 <img class="logo about__logo" src="img/Logo.svg" alt="Website Logo">
-                <h2 class="about__title"> Welcome to Website</h2>
+                <h2 class="about__title text-center"> Welcome to Website</h2>
                 <p class="about__slogan"> Discover Amazing Website <br> with great build tools</p>
-                <img src="img/primary_about_image.png" alt="Welcome Page Illustration" class="about__image">
+                <img src="img/primary_about_image.png" alt="Welcome Page Illustration" class="about__image  img-fluid">
             </div>
 
-            <div class="primary__right col sign-in">
+            <div class="primary__right col-6 ">
                 <h3 class="sign-in__title"> Sign In to Website</h3>
                 <div class="sign-in__create-acc">
-                    <p class="sign-in__text"> New Here?</p>
+                    <p class="sign-in__text"> New Here? </p>
                     <a class="sign-in__create-link" href="http://createanaccount.am">Create an Account</a>
                 </div>
                 <form class="sign-in__form">
                     <div class="mb-3 sign-in__email">
-                        <label for="exampleInputEmail1" class="form-label sign-in__email-label">Email address</label>
-                        <input type="email" class="form-control sign-in__email-input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="exampleInputEmail1" class="form-label sign-in__input-label">Email</label>
+                        <input type="email" class="form-control sign-in__input" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3 sign-in__pass">
-                        <div>
-                            <label for="exampleInputPassword1" class="form-label sign-in__pass-label">Password</label>
-                            <a>Forgot Password?</a>
+                        <div class="sign-in__pass-header">
+                            <label for="exampleInputPassword1" class="form-label sign-in_input-label">Password</label>
+                            <a class="sign-in_input-link">Forgot Password?</a>
                         </div>
-                        <input type="password" class="form-control sign-in__pass-input" id="exampleInputPassword1">
+                        <input type="password" class="form-control sign-in__input" id="exampleInputPassword1">
                     </div>
                     <div class="sign-in__btn-wrap d-grid gap-2 mx-auto">
-                        <button type="submit" class="btn btn-primary sign-in__btn-submit">Continue</button>
+                        <button type="submit" class="btn btn-primary sign-in__btn-submit sign-in__btn">Continue</button>
                     </div>
-                    <p class="sign-in__text">OR</p>
+                    <p class="sign-in__text sign-in__choise-text text-center ">OR</p>
                     <div class="d-grid gap-2 mx-auto sign-in__btn-group">
-                        <button type="button" class="btn btn-light sign-in__btn-google">Continue with Google</button>
-                        <button type="button" class="btn btn-light sign-in__btn-facebook">Continue with Facebook</button>
-                        <button type="button" class="btn btn-light sign-in__btn-apple">Continue with Apple</button>
+                        <button type="button" class="btn btn-light sign-in__btn sign-in__btn--google sign-in__btn--fotter sign-in__text">Continue with Google</button>
+                        <button type="button" class="btn btn-light sign-in__btn sign-in__btn--facebook sign-in__btn--fotter sign-in__text">Continue with Facebook</button>
+                        <button type="button" class="btn btn-light sign-in__btn sign-in__btn--apple sign-in__btn--fotter sign-in__text">Continue with Apple</button>
                     </div>
-                    <div>
-                        <a class="sign-in__btn-fotter" href="http://about.am">About</a>
-                        <a class="sign-in__btn-fotter" href="http://support.am">Support</a>
-                        <a class="sign-in__btn-fotter" href="http://terms.am">Terms</a>
+                    <div class="sign-in__fotter">
+                        <a class="sign-in__link-fotter sign-in__text" href="http://about.am">About</a>
+                        <a class="sign-in__link-fotter sign-in__text" href="http://support.am">Support</a>
+                        <a class="sign-in__link-fotter sign-in__text" href="http://terms.am">Terms</a>
                     </div>
                 </form>
             </div>

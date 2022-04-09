@@ -1,13 +1,17 @@
 
 
 .container{
-    margin: 0;
+    /* margin: 0; */
 }
 
+.prinary__wrap {
+    
+}
 .primary__left {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    max-width: 650px;
     background-color: #f2c98b;
     padding: 105px 0 0 0;
 }
@@ -42,12 +46,130 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-top: 105px;
+    padding-top: 100px;
+    padding-left: 180px;
 
+}
+
+.form-label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sign-in__email{
+    padding-bottom: 25px;
+}
+
+.sign-in__pass {
+    padding-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.sign-in__pass-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in_input-link {
+    font-size: 17px;
+    text-decoration: none;
+    color: #009ef7;
+
+}
+
+.sign-in__btn {
+    background-color: #f4f8fb;
 }
 
 .sign-in__btn-submit {
     background-color: #009ef7;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+
+.sign-in__title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.sign-in__create-acc {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sign-in__text {
+    color: #8d8d8e; 
+    text-align: center;
+}
+
+.sign-in__choise-text {
+    padding: 15px 0 10px 0;
+}
+
+.sign-in__create-link {
+    padding-left: 5px;
+}
+
+.sign-in__create-link {
+    text-decoration: none;
+    color: #009ef7;
+
+}
+
+.sign-in__input {
+    background-color: #f4f8fb;
+    border: 0;
+    border-radius: 10px;
+    min-width: 430px;
+    min-height: 50px;
+}
+
+.sign-in__btn {
+    min-width: 430px;
+    min-height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+
+}
+
+.sign-in__btn--fotter {
+    margin-bottom: 13px;
+}
+
+.sign-in__btn--google {
+    background-image: background-image: url(.../img/facebook.png);
+    background-repeat: no-repeat;
+}
+
+.sign-in__btn--facebook {
+    background-image: background-image: url(.../img/);
+    background-repeat: no-repeat;
+}
+
+.sign-in__btn--apple {
+    background-image: background-image: url(.../img/);
+    background-repeat: no-repeat;
+}
+
+.sign-in__fotter {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sign-in__link-fotter {
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 7px;
+}
+
+@media ( max-width: 360px ) {
+    .about__image {
+        max-width: 250px;
+}
+}
+
