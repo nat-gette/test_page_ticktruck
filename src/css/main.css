@@ -8,18 +8,16 @@
 }
 
 .primary__left {
-    padding: 100px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center; 
+    padding: 100px 0 0 0;
     height: 100vh;
-    /* max-width: 650px; */
     font-family: Gilroy;
     background-color: #f2c98b;
 }
 
 .about__logo {
-    /* margin: 0 160px ; */
     align-self: center;
     padding-bottom: 45px;
     max-width: 85px;
@@ -50,13 +48,12 @@
     flex-direction: column;
     align-items: center; 
     padding-top: 100px;
-    /* padding-left: 180px; */
     font-family: Gilroy;
 }
 
 .sign-in__title {
-    font-size: 28px;
     text-align: center;
+    font-size: 28px;
     font-weight: bold;
 }
 .form-label {
@@ -108,9 +105,9 @@
 
 
 .sign-in__create-acc {
-    padding-bottom: 20px;
     display: flex;
     flex-direction: row;
+    padding-bottom: 20px;
     font-size: 18px;
     text-align: center;
 }
@@ -140,14 +137,29 @@
 .sign-in__input {
     background-color: #f4f8fb;
     border: 0;
-    border-radius: 10px;
     width: 100% ;
     min-height: 50px;
+    border-radius: 10px;
+    
+}
+.sign-in__input--error {
+border: 1.5px solid ;
+border-color: #ff0000;
+}
+
+.sign-in__error {
+    display: none;
+}
+
+.sign-in__error-active {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color:  #ff0000;
 }
 
 .sign-in__btn {
     min-width: 430px;
-    /* width: 100%; */
     min-height: 50px;
     font-size: 17px;
     border-radius: 10px;
@@ -158,25 +170,10 @@
     margin-bottom: 13px;
 }
 
-/* .icon-google {
-    background-image: url("../img/google.png");
-    background-repeat: no-repeat;
-}
-
-.icon-facebook {
-    background-image: url("../img/facebook.png");
-    background-repeat: no-repeat;
-}
-
-.icon-apple {
-    background-image: url("../img/apple.png");
-    background-repeat: no-repeat;
-} */
-
 .sign-in__btn-icon {
+    margin-right: 3px;
     max-height: 19px;
     width: auto;
-    margin-right: 3px;
 }
 
 .sign-in__fotter {
@@ -185,14 +182,8 @@
 }
 
 .sign-in__link-fotter {
+    padding-right: 7px;
     text-decoration: none;
     font-size: 17px;
-    padding-right: 7px;
 }
-
-/* @media ( max-width: 360px ) {
-    .about__image {
-        max-width: 250px;
-}
-} */
 
