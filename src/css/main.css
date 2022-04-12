@@ -7,13 +7,50 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url('../fonts/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 .primary__left {
     display: flex;
     flex-direction: column;
     align-items: center; 
     padding: 100px 0 0 0;
     /* height: 100vh; */
-    font-family: Gilroy;
+    font-family: PoppinsMedium;
     background-color: #f2c98b;
 }
 
@@ -26,8 +63,9 @@
 .about__title {
     align-self: center;
     padding-bottom: 25px;
-    font-size: 34px;
-    font-weight: bold;
+    font-size: 28px;
+    font-family: PoppinsSemiBold;
+    /* font-weight: bold; */
     color: #966a2d;
 }
 
@@ -35,7 +73,7 @@
     align-self: center;
     text-align: center;
     padding-bottom: 85px;
-    font-size: 24px;
+    font-size: 18px;
     color: #966a2d;
 }
 
@@ -48,13 +86,13 @@
     flex-direction: column;
     align-items: center; 
     padding-top: 100px;
-    font-family: Gilroy;
+    font-family: PoppinsMedium;
 }
 
 .sign-in__title {
     text-align: center;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 26px;
+    font-family: PoppinsSemiBold;
 }
 .form-label {
     font-size: 17px;
