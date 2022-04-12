@@ -1,4 +1,5 @@
 const signInForm = document.querySelector('.sign-in__form');
+const signInLabels = document.querySelectorAll('.form-label');
 const signInInputs = document.querySelectorAll('.sign-in__input');
 const signInEmail = document.querySelector('.sign-in__input--email');
 const signInPass = document.querySelector('.sign-in__input--pass');
@@ -22,22 +23,27 @@ signInForm.onsubmit = function () {
 
     if (signInEmail.value === '') {
         signInError[0].classList.add('sign-in__error-active');
-
+        signInLabels[0].classList.add('sign-in_input-label--error')
     } else {
         signInError[0].classList.remove('sign-in__error-active');
+        signInLabels[0].classList.remove('sign-in_input-label--error')
+
     };
 
     if (signInPass.value === '') {
         signInError[1].classList.add('sign-in__error-active');
-
+        signInLabels[1].classList.add('sign-in_input-label--error')
     } else {
         signInError[1].classList.remove('sign-in__error-active');
+        signInLabels[1].classList.remove('sign-in_input-label--error')
+
     };
 
     if (emptyInputs.length !== 0) {
         console.log('not field');
         return false;
     };
+
 
 }
 
