@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding: 100px 0 0 0;
+    padding: 90px 0 0 0;
     /* height: 100vh; */
     font-family: PoppinsMedium;
     background-color: #f2c98b;
@@ -57,13 +57,13 @@
 .about__logo {
     align-self: center;
     padding-bottom: 45px;
-    max-width: 85px;
+    max-width: 75px;
 }
 
 .about__title {
     align-self: center;
-    padding-bottom: 25px;
-    font-size: 28px;
+    padding-bottom: 35px;
+    font-size: 26px;
     font-family: PoppinsSemiBold;
     /* font-weight: bold; */
     color: #966a2d;
@@ -72,30 +72,39 @@
 .about__slogan {
     align-self: center;
     text-align: center;
-    padding-bottom: 85px;
+    padding-bottom: 65px;
     font-size: 18px;
     color: #966a2d;
 }
 
 .about__image {
-    max-width: 380px;
+    max-width: 350px;
 }
 
 .primary__right {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-top: 100px;
+    padding-top: 87px;
     font-family: PoppinsMedium;
 }
 
 .sign-in__title {
+    padding-bottom: 8px;
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     font-family: PoppinsSemiBold;
 }
+
+.sign-in__create-acc {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 18px;
+    font-size: 14px;
+    text-align: center;
+}
 .form-label {
-    font-size: 17px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -104,11 +113,11 @@
 }
 
 .sign-in__email{
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 .sign-in__pass {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     font-weight: bold;
 
 }
@@ -119,7 +128,7 @@
 }
 
 .sign-in_input-link {
-    font-size: 17px;
+    font-size: 12px;
     text-decoration: none;
     color: #009ef7;
     transition: 1s;
@@ -145,22 +154,13 @@
     border-radius: 10px;
 }
 
-
-.sign-in__create-acc {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20px;
-    font-size: 18px;
-    text-align: center;
-}
-
 .sign-in__text {
     color: #8d8d8e; 
     text-align: center;
 }
 
 .sign-in__choise-text {
-    padding: 15px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 
 .sign-in__create-link {
@@ -201,15 +201,15 @@ border-color: #ff0000;
 }
 
 .sign-in__btn {
-    min-width: 430px;
-    min-height: 50px;
-    font-size: 17px;
+    min-width: 380px;
+    min-height: 45px;
+    font-size: 14px;
     border-radius: 10px;
 
 }
 
 .sign-in__btn--fotter {
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 
 .sign-in__btn-icon {
@@ -219,14 +219,14 @@ border-color: #ff0000;
 }
 
 .sign-in__fotter {
-    padding-top: 60px;
+    padding-top: 58px;
     text-align: center;
 }
 
 .sign-in__link-fotter {
     padding-right: 7px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 @media ( max-width: 576px ) {
