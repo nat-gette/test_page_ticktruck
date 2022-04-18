@@ -45,10 +45,10 @@
 
 
 .primary__left {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding: 90px 0 0 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;  */
+    /* padding: 90px 0 0 0; */
     /* height: 100vh; */
     font-family: PoppinsMedium;
     background-color: #f2c98b;
@@ -82,10 +82,10 @@
 }
 
 .primary__right {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding-top: 87px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;  */
+    /* padding-top: 87px; */
     font-family: PoppinsMedium;
 }
 
