@@ -1,79 +1,69 @@
 @font-face {
-    font-family: "Gilroy";
-    src: url('../fonts/gilroy-regular.woff') format('woff'),
-        url('../fonts/gilroy-regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "PoppinsRegular";
+    font-family: "Poppins";
     src: url('../fonts/Poppins-Regular.woff') format('woff'),
         url('../fonts/Poppins-Regular.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "PoppinsMedium";
+    font-family: "Poppins";
     src: url('../fonts/Poppins-Medium.woff') format('woff'),
         url('../fonts/Poppins-Medium.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "PoppinsSemiBold";
+    font-family: "Poppins";
     src: url('../fonts/Poppins-SemiBold.woff') format('woff'),
         url('../fonts/Poppins-SemiBold.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "PoppinsBold";
+    font-family: "Poppins";
     src: url('../fonts/Poppins-Bold.woff') format('woff'),
         url('../fonts/Poppins-Bold.woff2') format('woff2');
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px !important;
+    font-weight: 400;
+    font-family: Poppins, Helvetica, "sans-serif";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .primary__left {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;  */
-    /* padding: 90px 0 0 0; */
-    /* height: 100vh; */
-    font-family: PoppinsMedium;
     background-color: #f2c98b;
 }
 
 .about__logo {
-    align-self: center;
-    padding-bottom: 45px;
     max-width: 75px;
 }
 
 .about__title {
-    align-self: center;
-    padding-bottom: 30px;
     font-size: 28px;
-    font-family: PoppinsSemiBold;
-    /* font-weight: bold; */
+    font-weight: 600;
     color: #966a2d;
 }
 
 .about__slogan {
-    align-self: center;
-    text-align: center;
-    padding-bottom: 65px;
     font-size: 19px;
+    font-weight: 500;
     color: #966a2d;
 }
 
@@ -82,27 +72,18 @@
 }
 
 .primary__right {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;  */
-    /* padding-top: 87px; */
-    font-family: PoppinsMedium;
+    width: 500px !important;
+    margin: 0 auto;
 }
 
 .sign-in__title {
-    padding-bottom: 8px;
-    text-align: center;
     font-size: 20px;
-    font-family: PoppinsSemiBold;
 }
 
 .sign-in__create-acc {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20gitpx;
     font-size: 14px;
-    text-align: center;
 }
+
 .form-label {
     font-size: 12px;
     font-weight: bold;
@@ -112,19 +93,9 @@
     color: #ff0000;
 }
 
-.sign-in__email{
-    padding-bottom: 15px;
-}
-
 .sign-in__pass {
-    padding-bottom: 15px;
     font-weight: bold;
 
-}
-
-.sign-in__pass-header {
-    display: flex;
-    justify-content: space-between;
 }
 
 .sign-in_input-link {
@@ -159,12 +130,7 @@
     text-align: center;
 }
 
-/* .sign-in__choise-text {
-    padding: 10px 0 10px 0;
-} */
-
 .sign-in__create-link {
-    padding-left: 5px;
     text-decoration: none;
     color: #009ef7;
     transition: 1s;
@@ -185,8 +151,8 @@
     
 }
 .sign-in__input--error {
-border: 1.5px solid ;
-border-color: #ff0000;
+    border: 1.5px solid ;
+    border-color: #ff0000;
 }
 
 .sign-in__error {
@@ -216,11 +182,6 @@ border-color: #ff0000;
     width: auto;
 }
 
-/* .sign-in__fotter {
-    padding-top: 58px;
-    text-align: center;
-} */
-
 .sign-in__link-fotter {
     padding-right: 7px;
     text-decoration: none;
@@ -230,5 +191,11 @@ border-color: #ff0000;
 @media ( max-width: 576px ) {
     .sign-in__btn {
         min-width: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .primary__right {
+        width: 700px !important;
     }
 }
