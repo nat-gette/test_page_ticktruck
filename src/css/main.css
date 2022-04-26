@@ -47,6 +47,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.dark-orange {
+    color: #966a2d;
+}
+
 .primary__left {
     background-color: #f2c98b;
 }
@@ -58,13 +62,13 @@ body {
 .about__title {
     font-size: 28px;
     font-weight: 600;
-    color: #966a2d;
+    /* color: #966a2d; */
 }
 
 .about__slogan {
     font-size: 19px;
     font-weight: 500;
-    color: #966a2d;
+    /* color: #966a2d; */
 }
 
 .about__image {
